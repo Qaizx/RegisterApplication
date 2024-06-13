@@ -8,14 +8,14 @@
 2. Connect PostgreSQL server
 3. Config ConnectionString: DefaultConnection to postgres server in appsettings.json
 4. Package Manager Console
-  1. Update database
-     ```sh
-     Update-Database
-     ```
-  2. Optional: If you want to migrate database as new version
+   1. Update database
       ```sh
-      Add-Migration *{your file name migration}
+      Update-Database
       ```
+   2. Optional: If you want to migrate database as new version
+       ```sh
+       Add-Migration *{your file name migration}
+       ```
 
 # Tool
 - Visual studio
