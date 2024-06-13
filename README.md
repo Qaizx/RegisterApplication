@@ -1,6 +1,6 @@
 # RegisterApplication in Asp.net core 8 web api
 
-#Setup project
+# Setup project
 1. Clone the repo
    ```sh
    git clone https://github.com/Qaizx/RegisterApplication.git
@@ -8,15 +8,15 @@
 2. Connect PostgreSQL server
 3. Config ConnectionString: DefaultConnection to postgres server in appsettings.json
 4. Package Manager Console
-  - Update database
+  1. Update database
      ```sh
      Update-Database
      ```
-  - Optional: If you want to migrate database as new version
-    ```sh
-     Add-Migration *{your file name migration}
-     ```
+  2. Optional: If you want to migrate database as new version
+      ```sh
+      Add-Migration *{your file name migration}
+      ```
 
-#Tool
+# Tool
 - Visual studio
 
